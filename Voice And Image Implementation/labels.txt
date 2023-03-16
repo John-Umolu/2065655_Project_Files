@@ -1,0 +1,15 @@
+0 cup_cakes
+1 donuts
+2 eggs_benedict
+3 fish_and_chips
+4 french_fries
+5 fried_rice
+6 hamburger
+7 hot_dog
+8 omelette
+9 oysters
+10 pancakes
+11 pizza
+12 pork_chop
+13 shrimp_and_grits
+14 spaghetti_bolognese
