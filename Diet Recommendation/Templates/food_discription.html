@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<meta charset = "utf-8">
+<title>2065655 Project</title>
+
+<body style="background-color:white;">
+	<div align = "center">
+		{% for table in tables %}
+		{{ titles[loop.index] }}
+		{{ table|safe }}
+		{% endfor %}
+	</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<meta charset = "utf-8">
+<title>2065655 Project</title>
+<style>
+    .button {
+        appearance: button;
+        -moz-appearance: button;
+        -webkit-appearance: button;
+        text-decoration: none; 
+        font: menu; 
+        color: ButtonText;
+        display: inline-block; 
+        padding: 2px 8px;
+    }
+</style>
+<body style="background-image: url(https://akifagoelectronics.com/images/back.jpg);">
+	<div align = "center">
+	<article>
+		<header>
+			<h1 style="font-size:300%;background-color:white;color:black;">Eating Healthy Virtual Assistance By 2065655</h1>
+		</header>
+		<br>
+		<br>
+		
+        <textarea readonly cols='70' rows='7' type="text" size="50" name="txtarea" maxlength="1000000" style="font-family: Arial;font-size: 20pt; width:100%;height:300%; color:black; background-color:white;">{{foods[0]}}&#10;{{foods[1]}}&#10;{{foods[2]}}&#10;{{foods[3]}}&#10;{{foods[4]}}&#10;{{foods[5]}}&#10;{{foods[6]}}</textarea>
+        <br>
+        <br>
+        <form class="form-inline" method="POST" action="{{ url_for('onlinepurchase') }}">
+        <div class="form-group">
+            <div class="input-group">
+            <span style="font-size : 30pt;color:white;background-color:grey;" class="input-group-addon">Please select:</span>
+                <select style="font-size:30pt;color:black;background-color:white;width:75%" select name="comp_select" class="selectpicker form-control">
+                    {% for food in foods[7:] %}
+                        <option style="font-size:30pt;color:black;background-color:white;" value="{{food}}" selected>{{food}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <br>
+            <br>
+            <button style="font-size : 30pt;color:white;border:3px solid white; background-color: brown;" type="submit" class="btn btn-default">Place Order Online</button>
+        </div>
+        </form>
+        <form action = "https://www.akifagoelectronics.com/2065655_Home/locate" method = "post" class="button">
+            <p><input style="font-size : 30pt;color:white;border:3px solid white; background-color: brown;" type = "submit" value = "View Store Location" /></p>
+        </form>
+        <form action = "https://www.akifagoelectronics.com/2065655_Home/allfood" method = "post" class="button">
+            <p><input style="font-size : 30pt;color:white;border:3px solid white; background-color: brown;" type = "submit" value = "View All Food Items" /></p>
+        </form> 
+	</article>
+	</div>
+</body>
+</html>
