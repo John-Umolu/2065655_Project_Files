@@ -1,0 +1,205 @@
+<html>
+	<head>
+	<title>Patient Hospital Registration</title>
+	<style> 
+	h1{text-align: center;}
+	
+	body{
+		margin: 0; 
+		padding: 0;
+	}
+	.container img {
+		width: 100%;
+	}
+	.thin-black-border {
+		border-color: black;
+		border-width: 05px;
+		border-style: solid;
+	}
+	.header {
+		font: 200 80px'Oleo Script', Helvetica, sans-serif;
+		color: #2b2b2b;
+	text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+	}
+	.main-wrap{
+		display: flex;
+		flex-direction: row;
+	}
+	.main-wrap > div{
+		flex: 1;
+	}
+	
+	.two-col {
+		overflow: hidden;/* Makes this div contain its floats */
+	}
+	.two-col .col1,
+	.two-col .col2 {
+		width: 50%;
+	}
+	.two-col .col1 {
+		float: left;
+	}
+	.two-col .col2 {
+		float: right;
+	}
+	.two-col label {
+		display: block;
+	}
+	.iframe{
+    border:none;
+    width:400px;
+    display:block;
+	}
+	</style>
+	</head>
+	<body>
+		<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+		<div style="width:100%; height:100px;background-color:green" class="bg-faded">
+			<h1 class="text-center header">Welcome to 2065655 Medical Center</h1>
+		</div>
+		<div class="main-wrap">
+		<div class="container" style="background-color:brown;color:white;padding:10px">
+			<form action="https://www.akifagoelectronics.com/2065655_Hospital/predict" method="post">
+			<h1> Patient Registration</h1>
+					<div class="two-col" >
+						<div class="col1" >
+						    Hospital Number: <br>
+							<input type="text" name="field1"><br>
+							<br>
+						    Mobile Number: <br>
+							<input type="text" name="field2"><br>
+							<br>
+							Age(25-84): <br>
+							<input type="text" name="field3"><br>
+							<br>
+							Sex: <br>
+							<select name="field4">
+								<option value="1">Male</option>
+								<option value="0">Female</option>
+							</select>
+							<br>
+							<br>
+							Chest Pain Type: <br>
+							<select name="field5">
+								<option value="0">Asymptomatic</option>
+								<option value="1">Atypical Angina</option>
+								<option value="2">Non-Anginal Pain</option>
+								<option value="3">Typical Angina</option>
+							</select>
+							<br>
+							<br>
+							Resting Blood Pressure(mm Hg): <br>
+							<input type="text" name="field6"><br>
+							<br>
+							Serum Cholesterol(mm/dl): <br>
+							<input type="text" name="field7"><br>
+							<br>
+							Fasting Blood Sugar: <br>
+							<select name="field8">
+								<option value="0">No</option>
+								<option value="1">Yes</option>
+							</select>
+							<br>
+							<br>
+							Resting Electrocardiogram: <br>
+							<select name="field9">
+							    <option value="0">Left Ventricular Hypertrophy</option>
+								<option value="1">Normal</option>
+								<option value="2">Having ST-T Wave Abnormality</option>
+							</select>
+							<br>
+							<br>
+							Enter Food Allergies: <br>
+							<textarea rows = "5" cols = "60" name="field20" style="width:250px; height:100px; text-align:left;">
+                                
+                            </textarea><br>
+						</div>
+
+						<div class="col2">
+						    Maximum Heart Rate Achieved(60-202): <br>
+							<input type="text" name="field19"><br>
+							<br>
+							Exercise-Induced Angina: <br>
+							<select name="field10">
+								<option value="0">No</option>
+								<option value="1">Yes</option>
+							</select>
+							<br>
+							<br>
+							Old Peak: <br>
+							<input type="text" name="field11"><br>
+							<br>
+							Slope Of The Peak Exercise: <br>
+							<select name="field12">
+							    <option value="0">Down Sloping</option>
+							    <option value="1">Flat Sloping</option>
+								<option value="2">Up Sloping</option>
+							</select>
+							<br>
+							<br>
+							Experienced Heart Disease Before?: <br>
+							<select name="field13">
+								<option value="0">No</option>
+								<option value="1">Yes</option>
+							</select>
+							<br>
+							<br>
+							Smoking Status: <br>
+							<select name="field14">
+								<option value="0">No-Smoker</option>
+								<option value="1">Ex-Smoker</option>
+								<option value="2">Light Smoker(less than 10)</option>
+								<option value="3">Moderate Smoker(10-19)</option>
+								<option value="4">Heavy Smoker(20 or Over)</option>
+							</select>
+							<br>
+							<br>
+							Diabetes Status: <br>
+							<select name="field15">
+								<option value="0">None</option>
+								<option value="1">Type 1</option>
+								<option value="2">Type 2</option>
+							</select>
+							<br>
+							<br>
+							Height(cm): <br>
+							<input type="text" name="field16"><br>
+							<br>
+							Weight(kg): <br>
+							<input type="text" name="field17"><br>
+							<br>
+							Ethnicity: <br>
+							<select name="field18">
+								<option value="0">White or Not Stated</option>
+								<option value="1">Indian</option>
+								<option value="2">Pakistani</option>
+								<option value="3">Bangladeshi</option>
+								<option value="4">Other Asian</option>
+								<option value="5">Black Caribbean</option>
+								<option value="6">Black African</option>
+								<option value="7">Chinese</option>
+								<option value="8">Other Ethnic Group</option>
+							</select>
+							<br>
+							<br>
+							<br>
+							<br>
+							<input type="submit" value="Submit">
+						</div>
+					</div>	
+				</form>
+		</div>
+		<div style="background-color:black;color:white;padding:10px">
+			<h1> Dataset Attribute Information </h1>
+			<iframe allowtransparency="true" style="background: #FFFFFF;border:1px solid black;" src="https://www.akifagoelectronics.com/text.txt" width="100%" height="600"></iframe>
+			<div class="container" style="background-color:black;color:white;padding:10px">
+			    <div>
+                    <input type="button" onclick="location.href='https://www.akifagoelectronics.com/2065655_Hospital/retrain';" value="Train Models (Without Using Bagging and Boosting)" /> 
+                    <input type="button" onclick="location.href='https://www.akifagoelectronics.com/2065655_Hospital/bagging';" value="Train Models (Using Bagging)" /> 
+                    <input type="button" onclick="location.href='https://www.akifagoelectronics.com/2065655_Hospital/boosting';" value="Train Models (Using Boosting)" />
+                </div>
+	        </div>
+		</div>
+	</div>	
+	</body>
+</html>
