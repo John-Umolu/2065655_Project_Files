@@ -1,6 +1,9 @@
 # 7CS042/UM2: MSc Project Artificial Intelligence By Umolu John Chukwuemeka (2065655) <br>
 # Heart Disease Prediction App
-![heart disease prediction](https://user-images.githubusercontent.com/106328663/225674068-eabfcb97-48fa-4443-a9c6-5b81bef73864.png) <br>
+![h1](https://user-images.githubusercontent.com/106328663/235750177-6c4dca73-e1da-4661-80f2-9af3734c5762.png) <br>
+
+![h2](https://user-images.githubusercontent.com/106328663/235750263-74c0ab59-7fe1-4b23-912d-a796604c2818.png) <br>
+
 ![heart disease prediction 2](https://user-images.githubusercontent.com/106328663/225674803-56958c9e-9a72-4f16-942f-6d07715bb11d.png) <br>
 
 # The Diet Recommendation App <br>
