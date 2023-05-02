@@ -1,5 +1,8 @@
 # 7CS042/UM2: MSc Project Artificial Intelligence By Umolu John Chukwuemeka (2065655) <br>
-# Heart Disease Prediction App
+The project developed a web-based diet recommendation application that suggests food items for heart disease patients based on the predicted outcome of the web-based heart disease prediction app. <br>
+# Heart Disease Prediction App <br>
+The web-based diet recommendation application is accessed using the below link. <br>
+URL link: https://www.akifagoelectronics.com/2065655_Home/ <br>
 ![h1](https://user-images.githubusercontent.com/106328663/235750177-6c4dca73-e1da-4661-80f2-9af3734c5762.png) <br>
 
 ![h2](https://user-images.githubusercontent.com/106328663/235750263-74c0ab59-7fe1-4b23-912d-a796604c2818.png) <br>
